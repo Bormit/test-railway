@@ -1,0 +1,19 @@
+{
+  "$schema": "https://railway.app/railway.schema.json",
+  "build": {
+    "builder": "DOCKERFILE",
+    "dockerfilePath": "Dockerfile"
+  },
+  "deploy": {
+    "numReplicas": 1,
+    "sleepApplication": false,
+    "restartPolicyType": "ON_FAILURE"
+  },
+  "variables": {
+    "PROXY_1": "http://179.61.172.118:6669:pgdqeqzw:t14cw9hu7mza",
+    "PROXY_2": "http://154.217.198.156:5951:pgdqeqzw:t14cw9hu7mza",
+    "PROXY_3": "http://177.234.140.176:8000:ShEMke:8jJ9SQ",
+    "PROXY_4": "http://154.217.189.69:6362:pgdqeqzw:t14cw9hu7mza",
+    "PROXY_5": "http://154.217.190.72:5865:pgdqeqzw:t14cw9hu7mza"
+  }
+}
